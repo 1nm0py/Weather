@@ -108,23 +108,24 @@ main {
 
 
 @media(max-width:992px) {
-    .app-wrap{
+    .app-wrap {
         display: none;
     }
 }
 
 @media(max-width:576px) {
-    .app-wrap{
+    .app-wrap {
         display: block;
     }
+
     main {
-        /* margin-top: 30vh; */
         padding: 20vh 25px 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
+
     header {
         display: flex;
         justify-content: center;
