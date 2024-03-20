@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 15px 15px;
+    padding: 0px 15px 15px;
 }
 
 header input {
@@ -58,8 +58,7 @@ input:focus::placeholder {
 }
 
 main {
-    margin-top: 30vh;
-    padding: 25px 25px 50px;
+    padding: 30vh 25px 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,29 +106,32 @@ main {
 
 
 
-@media(max-width:992px) {
-    .app-wrap {
+/* @media(max-width:992px) {
+    .app-wrap{
         display: none;
     }
-}
+} */
 
 @media(max-width:576px) {
-    .app-wrap {
+    .app-wrap{
         display: block;
     }
-
     main {
+        /* margin-top: 30vh; */
         padding: 20vh 25px 50px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
     header {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0px 15px 15px;
+        padding: 0px 15px 150px;
+    }
+
+    body{
+        opacity: .5;
     }
 }
